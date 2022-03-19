@@ -1,0 +1,55 @@
+.career{
+    height: 100%;
+    overflow-y: auto;
+    padding: 30px 20px;
+}
+
+.career-education-box{
+    display: flex; flex-direction: column; align-items: flex-start;
+}
+
+.career-education-des{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.car-edu-detail-title{
+    cursor: pointer;
+}
+
+.car-edu-detail-title i{
+    margin: 0 5px;
+}
+
+.car-edu-detail-tableBox{
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.car-edu-detail-tableBox.show{
+    height: 330px;
+    transition: all 0.5s;
+}
+
+.car-edu-detail-table{
+    font-size: 13px;
+}
+
+.car-edu-detail-table tr, .car-edu-detail-table th{
+    padding: 5px 0;
+}
+
+.car-edu-detail-table td{
+    padding: 0 5px;
+}
+
+#headCell{
+    font-weight: bold;
+    text-align: center;
+}
+
+.car-wor-des{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}

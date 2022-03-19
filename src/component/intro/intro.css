@@ -1,0 +1,15 @@
+.intro{
+    display: flex; flex-direction: column; align-items: flex-start;
+    height: 100%;
+    overflow-y: auto;
+    padding: 30px 20px;
+    
+}
+
+.intro-title i{
+    margin: 0 10px;
+}
+
+.intro-des{
+    margin-bottom: 10px;
+}

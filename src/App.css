@@ -1,3 +1,4 @@
+/* reset */
 *{
   margin: 0; padding: 0;
   box-sizing: border-box;
@@ -15,4 +16,37 @@ ul,ol,dl{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+/* common */
+
+
+.title-b{
+  color: #87cefa;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.title-g{
+  color: #228b22;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.cl-b{
+  color: #87cefa;
+}
+
+.cl-g{
+  color: #228b22;
+}
+
+.cl-o{
+  color: rgb(223, 147, 103);
 }

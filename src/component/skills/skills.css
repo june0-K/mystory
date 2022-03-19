@@ -1,0 +1,31 @@
+.skills{
+    height: 100%;
+    overflow-y: auto;
+    padding: 30px 20px;
+}
+
+
+.skills-table{
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.skills-table-col1{
+    background-color: #444;
+}
+
+.skills-table th{
+    border: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.skills-table td{
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+}
+
+.skills-table td p{
+    margin-bottom: 5px;
+    padding: 0 5px;
+    text-align: left;
+}

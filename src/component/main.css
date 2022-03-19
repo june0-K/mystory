@@ -19,17 +19,48 @@ header{
 
 .explorer{
     width: 20vw;
-    padding: 10px;
+    padding: 10px 0;
     background-color: #333;
 }
 
+.toc-title{
+    margin-bottom: 5px;
+    text-indent: 3px;
+    cursor: pointer;
+}
+
+.toc-title:hover{
+    background-color: #444;
+}
+
 .toc-title i{
-    margin-right: 3px;
+    margin-right: 5px;
+}
+
+.table-of-contents{
+    display: flex; flex-direction: column; justify-content: flex-start;
+    height: 25vh;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.table-of-contents.slide{
+    height: 0;
+    transition: all 0.5s;
 }
 
 .toc-item{
     margin-bottom: 5px;
     text-indent: 10px;
+    cursor: pointer;
+}
+
+.toc-item:hover{
+    background-color: #444;
+}
+
+.toc-item.on{
+    background-color: #555;
 }
 
 .toc-item i{
@@ -54,6 +85,11 @@ header{
     padding: 0 5px;
     background-color: #555;
     line-height: 5vh;
+    cursor: pointer;
+}
+
+.nav-item.on{
+    background-color: #222;
 }
 
 .nav-item i{

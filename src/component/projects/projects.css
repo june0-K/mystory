@@ -1,0 +1,23 @@
+.projects{
+    height: 100%;
+    overflow-y: auto;
+    padding: 30px 20px;
+}
+
+.projects-url-title{
+    margin-bottom: 10px;
+}
+
+.projects-url-title a:hover{
+    text-decoration: underline;
+}
+
+.projects-des{
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.projects-des span{
+    color: #87cefa;
+    margin-right: 5px;
+}
