@@ -1,24 +1,24 @@
-.intro{
+.more{
     display: flex; flex-direction: column; align-items: flex-start;
     height: 100%;
     overflow-y: auto;
     padding: 30px 20px;
-    
 }
 
-.intro-title i{
-    margin: 0 10px;
+.more-title-sub{
+    margin: 10px 0;
+    font-size: 18px;
 }
 
-.intro-des{
+.more-des{
     margin-bottom: 15px;
+    line-height: 1.5;
 }
 
-#here{
+.more-des a{
     text-decoration: underline;
-    cursor: pointer;
 }
 
-#here:hover{
+.more-des a:hover{
     color: #228b22;
 }

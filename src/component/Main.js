@@ -4,6 +4,7 @@ import BasicInfo from "./basicInfo/BasicInfo";
 import Career from "./career/Career";
 import Intro from "./intro/Intro";
 import "./main.css";
+import More from "./more/More";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
 
@@ -32,6 +33,7 @@ function Main(){
                     <li className={ menu === "career" ? "toc-item on" : "toc-item" } onClick={e => setMenu("career")}><i className="fa-solid fa-road"></i>경력사항</li>
                     <li className={ menu === "skills" ? "toc-item on" : "toc-item" } onClick={e => setMenu("skills")}><i className="fa-solid fa-code"></i>보유기술</li>
                     <li className={ menu === "projects" ? "toc-item on" : "toc-item" } onClick={e => setMenu("projects")}><i className="fa-solid fa-lightbulb"></i>프로젝트</li>
+                    <li className={ menu === "more" ? "toc-item on" : "toc-item" } onClick={e => setMenu("more")}><i className="fa-solid fa-face-smile"></i>더 알아보기</li>
                   </ul>
               </div>
               <div className="component-box">
@@ -41,13 +43,15 @@ function Main(){
                       <li className={ menu === "career" ? "nav-item on" : "nav-item" } onClick={e => setMenu("career")}><i className="fa-solid fa-road"></i>경력사항</li>
                       <li className={ menu === "skills" ? "nav-item on" : "nav-item" } onClick={e => setMenu("skills")}><i className="fa-solid fa-code"></i>보유기술</li>
                       <li className={ menu === "projects" ? "nav-item on" : "nav-item" } onClick={e => setMenu("projects")}><i className="fa-solid fa-lightbulb"></i>프로젝트</li>
+                      <li className={ menu === "more" ? "nav-item on" : "nav-item" } onClick={e => setMenu("more")}><i className="fa-solid fa-face-smile"></i>더 알아보기</li>
                   </ul>
                   <div className="component">
-                      { menu === "intro" ? <Intro /> : null }
+                      { menu === "intro" ? <Intro setMenu={setMenu} /> : null }
                       { menu === "info" ? <BasicInfo /> : null }
                       { menu === "career" ? <Career /> : null }
                       { menu === "skills" ? <Skills /> : null }
                       { menu === "projects" ? <Projects /> : null }
+                      { menu === "more" ? <More /> : null }
                       {/* <Route exact path="/" component={Intro} />
                       <Route path="/basicinfo" component={BasicInfo} />
                       <Route path="/career" component={Career} />
@@ -56,7 +60,7 @@ function Main(){
                   </div>
                   <footer>
                       <p className="contact-info">
-                          최종업데이트일 : 2022-03-18
+                          최종업데이트일 : 2022-03-23
                       </p>
                       <p className="contact-info">
                           <span>[email]</span> ts1revan@naver.com
