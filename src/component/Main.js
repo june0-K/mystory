@@ -60,7 +60,7 @@ function Main(){
                   </div>
                   <footer>
                       <p className="contact-info">
-                          최종업데이트일 : 2022-03-23
+                          최종업데이트일 : 2022-04-03
                       </p>
                       <p className="contact-info">
                           <span>[email]</span> ts1revan@naver.com
