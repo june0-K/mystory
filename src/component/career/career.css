@@ -17,8 +17,16 @@
     cursor: pointer;
 }
 
+.car-edu-detail-title:hover{
+    color: rgb(223, 147, 103);
+}
+
 .car-edu-detail-title i{
     margin: 0 5px;
+}
+
+.car-edu-detail-title i:hover{
+    color: rgb(223, 147, 103);
 }
 
 .car-edu-detail-tableBox{
@@ -47,6 +55,14 @@
 #headCell{
     font-weight: bold;
     text-align: center;
+}
+
+.car-edu-video{
+    text-decoration: underline;
+}
+
+.car-edu-video a:hover{
+    color: rgb(223, 147, 103);
 }
 
 .car-wor-des{

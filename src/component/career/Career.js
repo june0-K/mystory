@@ -110,6 +110,8 @@ function Career(){
                         </tbody>
                     </table>
                 </div>
+                <div className="car-edu-video cl-g"><a href="https://youtu.be/aDqF1PXLlUs" target="blank">교육과정 중 촬영한 1분 자기소개 영상</a></div>
+                <div className="car-edu-video cl-g"><a href="https://programs.sbs.co.kr/sbsbiz/pickuptrend/clip/70410/22000443671" target="blank">SBS 트렌드 스페셜 교육과정 소개 영상(짧은 제 인터뷰도 포함되어 있습니다.)</a></div>
             </div>
             <div className="career-work-box">
                 <h1 className="car-wor-title title-b">소통의 경력: 방탈출카페 점장, 보드게임카페직원, 어학원 보조강사 (총 4년 7개월)</h1>

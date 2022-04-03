@@ -5,7 +5,8 @@ function Projects(){
     return(
         <div className="projects">
             <h1 className="projects-title title-b">Digitalzone 설문조사 홈페이지 제작 (with React, 2021년 2월 21일 ~ 3월 24일)</h1>
-            <h2 className="projects-url-title cl-g">// 시연용 테스트페이지 url: <a className="cl-o" href="https://digitalzone-v1.netlify.app/">https://digitalzone-v1.netlify.app/</a></h2>
+            <h2 className="projects-url-title cl-g">// 시연용 테스트페이지 url: <a className="cl-o" href="https://digitalzone-v1.netlify.app/" target="blank">https://digitalzone-v1.netlify.app/</a></h2>
+            <h2 className="projects-url-title cl-g">// 프로젝트 시연 발표 영상 url: <a className="cl-o" href="https://youtu.be/ng75iVqbAqw" target="blank">https://youtu.be/ng75iVqbAqw</a></h2>
             <p className="projects-des">
                 <span>프로젝트 참가 계기:</span>새싹아카데미 프론트엔드 사관학교 교육과정 중 기업 연계형 프로젝트를 진행
             </p>
@@ -22,7 +23,7 @@ function Projects(){
                 - React를 활용해 전체 57개 컴포넌트 중 10개 제작<br />
                 - Github를 통한 개인 작업 branch들의 merge 작업 총괄, 세부 오류 수정<br />
                 - netlify 서비스를 이용한 시험 사이트 배포<br />
-                - 의뢰 기업 대상 시연 시 발표 담당 (기업 실무자들 및 오세훈 당시 서울시장 참관)
+                - 의뢰 기업 대상 시연 시 발표 담당 (기업 실무자들 참관)
             </p>
             <p className="projects-des">
                 <span>프로젝트를 진행하며 배운 점 및 성장 포인트</span><br />
