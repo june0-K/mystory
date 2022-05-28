@@ -66,7 +66,7 @@ function Main(){
                           <span>[email]</span> ts1revan@naver.com
                       </p>
                       <p className="contact-info">
-                          <span>[tel]</span> 010-3923-2357
+                          <span>[tel]</span>
                       </p>
                   </footer>
               </div>
